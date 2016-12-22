@@ -24,6 +24,6 @@ listen on ionotify, for example javascript compilers.
 }
 ```
 
-- file_extenions:  default: [] (all), ["py", "md"], only trigger for this file extensions
+- file_extenions:  default: \[\] for all files, ["py", "md"] reduce to this file extensions
 - watch_paths: default: $HOME, ["/Users/myuser/myprojects", "/Users/myuser/otherprojects"],
   only trigger if file is in one of this paths, the path must be inside `/Users/myuser`
