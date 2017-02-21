@@ -49,7 +49,7 @@ class D4mNfsTouchListener(sublime_plugin.EventListener):
                 break
         valid_ext = True
         if extensions:
-            valid_ext = fname.split(".")[-1] in [extensions]
+            valid_ext = fname.split(".")[-1] in extensions
         return all([valid_path, valid_ext])
 
     def has_d4m_screen(self):
